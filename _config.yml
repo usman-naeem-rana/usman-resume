@@ -1,120 +1,190 @@
 # Site
-repository: sproogen/resume-theme
+repository: usman-naeem-rana/usman-resume
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Usman Naeem
+title: BS Computer Science · LUMS
+email: usmannr007@gmail.com
+website: https://usman-naeem-rana.github.io/usman-resume/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+github_username: usman-naeem-rana
+linkedin_username: usman-naeem-rana
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: +92 321 1105090
+    icon: fas fa-phone
+    url: tel:+923211105090
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_content: |
+  Computer Science undergraduate at **Lahore University of Management Sciences (LUMS)** with coursework across algorithms, operating systems, machine learning, AI, and software engineering. I enjoy building full-stack applications, experimenting with NLP and computer vision, and digging into network systems.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Python</mark>, <mark>C/C++</mark>, <mark>JavaScript & TypeScript</mark>, <mark>React</mark>, <mark>SQL</mark>, and <mark>Git</mark>.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Cockroach path prediction
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: usman-naeem-rana
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/usman-naeem-rana
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Computer vision and AI pipeline on real motion video — trajectory forecasting with sequence models and clear on-frame visualisation.
+        description: |
+          - Analysed cockroach-motion video and built an end-to-end pipeline to **predict trajectory**.
+          - Explored and compared **recurrent neural networks** and **CNN-based** sequence models.
+          - Rendered the extrapolated path back onto the original frames to **visualise accuracy**.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: top-middle
+        title: FoodSync
+        additional_links:
+          - title: usman-naeem-rana
+            icon: fab fa-github
+            url: https://github.com/usman-naeem-rana
+        quote: >
+          MERN-stack food-donation platform — restaurants list surplus food; NGOs claim donations in real time.
+        description: |
+          - Full-stack web app where restaurants list surplus food and NGOs **claim donations instantly**.
+          - Integrated <mark>Firebase Auth</mark>, a **chatbot assistant**, **leaderboard** rankings, and **email notifications**.
+
+      - layout: top-middle
+        title: Urdu news classification
+        additional_links:
+          - title: usman-naeem-rana
+            icon: fab fa-github
+            url: https://github.com/usman-naeem-rana
+        quote: >
+          Large-scale Urdu NLP — scraped corpus, classical and neural models, and a strong hybrid embedding + CNN architecture.
+        description: |
+          - Scraped **15,000+** Urdu articles; NLP preprocessing; trained **logistic regression**, **multinomial Naive Bayes**, and **neural** models.
+          - Achieved **92% F1** using a hybrid **word-embedding + CNN** architecture.
+
+      - layout: top-middle
+        title: Artificial intelligence mini-projects
+        additional_links:
+          - title: usman-naeem-rana
+            icon: fab fa-github
+            url: https://github.com/usman-naeem-rana
+        quote: >
+          Coursework solvers for search, constraints, and games — classical AI implemented end-to-end.
+        description: |
+          - Implemented <mark>A*</mark> search for the **8-puzzle**.
+          - Built **constraint-satisfaction** approaches for **tic-tac-toe** and related game/AI solvers.
+
+      - layout: top-middle
+        title: Network systems laboratory
+        additional_links:
+          - title: usman-naeem-rana
+            icon: fab fa-github
+            url: https://github.com/usman-naeem-rana
+        quote: >
+          Concurrent networked systems and routing — from multi-client chat to link-state and DHT-style designs.
+        description: |
+          - Built a **multi-client chat** using **sockets** and **threads**.
+          - Implemented **link-state** routing and **DHT** routing as part of laboratory work.
+
+      - layout: top-middle
+        title: arkad_mines_backend
+        link: https://github.com/usman-naeem-rana/arkad_mines_backend
+        link_text: Repository
+        additional_links:
+          - title: usman-naeem-rana/arkad_mines_backend
+            icon: fab fa-github
+            url: https://github.com/usman-naeem-rana/arkad_mines_backend
+        quote: >
+          Public JavaScript backend on GitHub — API and server-side project structure.
+        description: |
+          - Source and commit history live on GitHub (no README yet); use the repo for an overview of implementation details.
+
+  - title: Experience & leadership
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Pantera (solar startup)
+        sub_title: Intern
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Exposure to renewable energy operations and technical documentation.
+        description: |
+          Assisted with site audits, inverter specification sheets, and energy-yield estimates alongside the engineering team.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: Beaconhouse Sports Fest 2022
+        sub_title: IT Head
+        caption: "2022"
+        quote: >
+          End-to-end digital coordination for a large school sports event.
+        description: |
+          Coordinated online registrations, schedules, and live updates for participants and staff.
+
+      - layout: left
+        title: Beaconhouse School System
+        sub_title: President, Robotics Society
+        caption: 2021 – 2022
+        quote: >
+          Led peer robotics activities and competition preparation.
+        description: |
+          Organised society activities and represented the school in engineering and robotics events, including delegation work for national competitions.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Lahore University of Management Sciences (LUMS)
+        link: https://lums.edu.pk
+        sub_title: BS Computer Science
+        caption: 2022 – 2026
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          CGPA 3.571 — coursework in data structures & algorithms, operating systems, machine learning, network-centric computing, artificial intelligence, and software engineering.
+        description: |
+          Strong foundation in core CS theory and systems, with applied project work across ML, NLP, computer vision, and networked software.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Beaconhouse School System
+        sub_title: GCE A Level
+        caption: 2020 – 2022
+        quote: >
+          Physics, Chemistry, Mathematics.
+        description: |
+          Prepared for university-level quantitative and scientific work; later served in leadership roles including President of the Robotics Society.
 
-  - title: A Little More About Me
+  - title: Awards & honors
+    layout: list
+    content:
+      - layout: left
+        title: National Engineering & Robotics Competition (NERC)
+        sub_title: Best Design Award · delegation member
+        caption: "2024"
+        description: |
+          Recognised for design quality as part of the school delegation.
+
+      - layout: left
+        title: Community service lead
+        sub_title: Fundraising & health partnership
+        description: |
+          Raised funds and partnered with a hospital for a tuberculosis-eradication awareness and support drive.
+
+  - title: A little more about me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      **Technical skills:** C · C++ · Python · SQL (including Oracle) · JavaScript & TypeScript · React · HTML/CSS · Git & GitHub · Excel
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      **Other experience:** Plant visit to **Honda Atlas** (lean manufacturing and QA on the assembly line). I also invest time in **robotics**, **community service**, and **event tech operations** through school and society roles.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -124,4 +194,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
