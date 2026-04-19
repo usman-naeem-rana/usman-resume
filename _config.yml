@@ -38,7 +38,7 @@ content:
   - title: Projects
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         title: Cockroach path prediction
         additional_links:
           - title: usman-naeem-rana
@@ -51,7 +51,7 @@ content:
           - Explored and compared **recurrent neural networks** and **CNN-based** sequence models.
           - Rendered the extrapolated path back onto the original frames to **visualise accuracy**.
 
-      - layout: top-middle
+      - layout: left
         title: FoodSync
         additional_links:
           - title: FoodSync on GitHub
@@ -62,7 +62,7 @@ content:
         description: |
           Full-stack web app where restaurants list surplus food and NGOs **claim donations instantly**. Integrated <mark>Firebase Auth</mark>, a **chatbot assistant**, **leaderboard** rankings, and **email notifications**.
 
-      - layout: top-middle
+      - layout: left
         title: Urdu news classification
         additional_links:
           - title: usman-naeem-rana
@@ -74,7 +74,7 @@ content:
           - Scraped **15,000+** Urdu articles; NLP preprocessing; trained **logistic regression**, **multinomial Naive Bayes**, and **neural** models.
           - Achieved **92% F1** using a hybrid **word-embedding + CNN** architecture.
 
-      - layout: top-middle
+      - layout: left
         title: Artificial intelligence mini-projects
         additional_links:
           - title: usman-naeem-rana
@@ -86,7 +86,7 @@ content:
           - Implemented <mark>A*</mark> search for the **8-puzzle**.
           - Built **constraint-satisfaction** approaches for **tic-tac-toe** and related game/AI solvers.
 
-      - layout: top-middle
+      - layout: left
         title: Network systems laboratory
         additional_links:
           - title: usman-naeem-rana
@@ -98,7 +98,7 @@ content:
           - Built a **multi-client chat** using **sockets** and **threads**.
           - Implemented **link-state** routing and **DHT** routing as part of laboratory work.
 
-      - layout: top-middle
+      - layout: left
         title: ARKAD — Mines & Minerals Inventory System
         sub_title: Final Year Project
         additional_links:

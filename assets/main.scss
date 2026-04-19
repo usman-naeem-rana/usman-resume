@@ -4,29 +4,7 @@
 
 @import 'modern-resume-theme';
 
-// Projects (top-middle): centred title + quote; body left-aligned (overrides theme’s global justified paragraphs).
-.layout-top-middle .content {
-  max-width: 52rem;
-  margin-left: auto;
-  margin-right: auto;
-
-  p.quote {
-    text-align: center;
-  }
-
-  p:not(.quote),
-  ul,
-  ol,
-  li {
-    text-align: left;
-  }
-
-  ul {
-    padding-left: 2rem;
-  }
-}
-
-// Experience & education (layout-left/right): classic two-column resume — top-align both columns, left-align the wide description column (theme vertically centres the narrow left column by default).
+// Projects use the same `layout: left` as Experience — keep rows top-aligned and copy left-aligned (theme centres the narrow column vertically by default).
 .layout-left,
 .layout-right {
   align-items: flex-start;
