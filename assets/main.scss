@@ -4,15 +4,21 @@
 
 @import 'modern-resume-theme';
 
-// Projects (top-middle): centered title row + italic quote; body matches a readable left column (friend’s sample).
+// Projects (top-middle): centred title + quote; body left-aligned (overrides theme’s global justified paragraphs).
 .layout-top-middle .content {
   max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
 
   p.quote {
     text-align: center;
+  }
+
+  p:not(.quote),
+  ul,
+  ol,
+  li {
+    text-align: left;
   }
 
   ul {
@@ -20,18 +26,28 @@
   }
 }
 
-// Experience, education, etc. (layout-left): theme centers the quote inside the wide right column — pull copy flush left so it lines up with the rest of the page.
+// Experience & education (layout-left/right): classic two-column resume — top-align both columns, left-align the wide description column (theme vertically centres the narrow left column by default).
+.layout-left,
+.layout-right {
+  align-items: flex-start;
+}
+
+.layout-left .details,
+.layout-right .details {
+  justify-content: flex-start;
+}
+
 .layout-left .content,
 .layout-right .content {
-  text-align: left;
-
   p.quote {
     text-align: left;
     padding-left: 0;
     padding-right: 0;
   }
 
-  p,
+  p:not(.quote),
+  ul,
+  ol,
   li {
     text-align: left;
   }
