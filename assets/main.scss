@@ -4,17 +4,35 @@
 
 @import 'modern-resume-theme';
 
-// Center the body copy under top-middle project titles (theme only centers the title row).
+// Projects (top-middle): centered title row + italic quote; body matches a readable left column (friend’s sample).
 .layout-top-middle .content {
   max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
+
+  p.quote {
+    text-align: center;
+  }
 
   ul {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 2rem;
+  }
+}
+
+// Experience, education, etc. (layout-left): theme centers the quote inside the wide right column — pull copy flush left so it lines up with the rest of the page.
+.layout-left .content,
+.layout-right .content {
+  text-align: left;
+
+  p.quote {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  p,
+  li {
     text-align: left;
   }
 }

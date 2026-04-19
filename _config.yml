@@ -53,15 +53,18 @@ content:
 
       - layout: top-middle
         title: FoodSync
+        link: https://github.com/potatobox1/FoodSync
+        link_text: Collaborative repository
         additional_links:
-          - title: usman-naeem-rana
+          - title: potatobox1/FoodSync
             icon: fab fa-github
-            url: https://github.com/usman-naeem-rana
+            url: https://github.com/potatobox1/FoodSync
         quote: >
           MERN-stack food-donation platform — restaurants list surplus food; NGOs claim donations in real time.
         description: |
-          - Full-stack web app where restaurants list surplus food and NGOs **claim donations instantly**.
-          - Integrated <mark>Firebase Auth</mark>, a **chatbot assistant**, **leaderboard** rankings, and **email notifications**.
+          **Collaborator** on the team codebase ([`potatobox1/FoodSync`](https://github.com/potatobox1/FoodSync)) alongside other LUMS contributors.
+
+          Full-stack web app where restaurants list surplus food and NGOs **claim donations instantly**. Integrated <mark>Firebase Auth</mark>, a **chatbot assistant**, **leaderboard** rankings, and **email notifications**.
 
       - layout: top-middle
         title: Urdu news classification
@@ -100,17 +103,20 @@ content:
           - Implemented **link-state** routing and **DHT** routing as part of laboratory work.
 
       - layout: top-middle
-        title: arkad_mines_backend
-        link: https://github.com/usman-naeem-rana/arkad_mines_backend
-        link_text: Repository
+        title: ARKAD — Mines & Minerals Inventory System
+        sub_title: Final Year Project
+        link: https://github.com/MoizImran01/arkad_mines_mern-stack
+        link_text: Full-stack repository (team)
         additional_links:
-          - title: usman-naeem-rana/arkad_mines_backend
+          - title: Backend — usman-naeem-rana/arkad_mines_backend
             icon: fab fa-github
             url: https://github.com/usman-naeem-rana/arkad_mines_backend
         quote: >
-          Public JavaScript backend on GitHub — API and server-side project structure.
+          A B2B inventory & sales platform built with the MERN stack to digitize manual workflows in the mining industry.
         description: |
-          - Source and commit history live on GitHub (no README yet); use the repo for an overview of implementation details.
+          **Collaborator** on a **final-year team project** with Moiz Imran and other teammates. The **fully functional** product is the `MERN` monorepo at [`MoizImran01/arkad_mines_mern-stack`](https://github.com/MoizImran01/arkad_mines_mern-stack); I also ship and maintain backend-focused work in [`usman-naeem-rana/arkad_mines_backend`](https://github.com/usman-naeem-rana/arkad_mines_backend).
+
+          We are building a B2B **inventory & sales** platform using the `MERN` stack to replace manual workflows. The system includes **real-time stock tracking** with **QR-code** flows for factory staff and an automated **`PDF` quotation generator** for sales teams. Upcoming scope includes **AI-powered demand forecasting** and a **CRM** module to predict inventory needs and analyse customer purchasing behaviour.
 
   - title: Experience & leadership
     layout: list
