@@ -3,3 +3,18 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Center the body copy under top-middle project titles (theme only centers the title row).
+.layout-top-middle .content {
+  max-width: 52rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  ul {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+}

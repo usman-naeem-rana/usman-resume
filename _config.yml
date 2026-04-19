@@ -1,4 +1,7 @@
-# Site
+# Site (required for GitHub project Pages so assets resolve under /usman-resume/)
+url: "https://usman-naeem-rana.github.io"
+baseurl: "/usman-resume"
+
 repository: usman-naeem-rana/usman-resume
 favicon: images/favicon.ico
 
